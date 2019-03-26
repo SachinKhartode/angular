@@ -48,7 +48,7 @@ calls the lifecycle hook methods in the following sequence at specific moments:
     </td>
     <td>
 
-      Respond when Angular (re)sets data-bound input properties.
+      Respond when Angular (re)sets data-bound @Input properties.
       The method receives a `SimpleChanges` object of current and previous property values.
 
       Called before `ngOnInit()` and whenever one or more data-bound input properties change.
